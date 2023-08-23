@@ -1,2 +1,3 @@
 sp = input()
-print(sp.split(" "), sep="...")
+ps = sp.split(" ")
+print(ps, sep="...")
