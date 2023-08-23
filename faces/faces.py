@@ -1,1 +1,2 @@
-face = 
+face = input().replace(":)","🙂").replace(":(","🙁")
+print(face)
