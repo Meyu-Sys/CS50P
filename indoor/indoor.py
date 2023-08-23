@@ -1,2 +1,5 @@
 # Take in string from user
-in = input()
+up = input()
+# Using lower function
+out = up.lower()
+print(out)
