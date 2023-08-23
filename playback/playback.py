@@ -1,4 +1,4 @@
 sp = input()
 list = sp.split(" ")
-print(*list + ",")
-print((str(sp.split(" "))[1:-1]), sep="...")
+print(', '.join(list))
+print((', '.join(list)), sep="...")
