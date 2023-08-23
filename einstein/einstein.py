@@ -1,3 +1,3 @@
-m = input("m: ")
+m = int(input("m: "))
 e = m * 300000000 * 300000000
 print("E:",e)
