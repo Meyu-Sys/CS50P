@@ -1,5 +1,5 @@
 a = input("File name: ")
-name, ext = a.strip().lower().split(".", 1)
+ext = a.strip().lower().split(".")[-1]
 match ext:
     case "jpg" | "jpeg":
         print("image/jpeg")
