@@ -1,6 +1,6 @@
 a = input("File name: ")
 name, ext = a.split(".")
-match ext.lower:
+match ext:
     case "jpg" | "jpeg":
         print("image/jpeg")
     case "gif":
@@ -13,3 +13,5 @@ match ext.lower:
         print("text/plain")
     case "zip":
         print("application/zip")
+    case _:
+        print("application/octet-stream")
