@@ -2,6 +2,7 @@ a = input("What is the Answer to the Great Question of Life, the Universe, and E
 match int(a):
     case 42:
         print("Yes")
+        quit()
     case _:
         print("No")
 match a:
