@@ -11,6 +11,11 @@ def main():
 
 def convert(time):
     hr, min = time.split(":")
+    if " " in min:
+        min, post = min.split(" ")
+        if post == "p.m":
+            hr = hr + 12
+
     fl = float(float(hr) + float(int(min) / 60))
     return fl
 
