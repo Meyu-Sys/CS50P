@@ -11,6 +11,7 @@ def main():
 
 def convert(time):
     hr, min = time.split(":")
+    # challenge mechanic
     if " " in min:
         min, post = min.split(" ")
         if post == "p.m":
