@@ -1,6 +1,6 @@
 a = input("File name: ")
-name, ext = a.lower.split(".")
-match ext:
+name, ext = a.split(".")
+match ext.lower:
     case "jpg" | "jpeg":
         print("image/jpeg")
     case "gif":
