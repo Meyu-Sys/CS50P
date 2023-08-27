@@ -4,9 +4,9 @@ def main():
     print(d)
 
 def dollars(g):
-    if g[0:5] == "Hello":
+    if g.strip()[0:5] == "Hello":
         return "$0"
-    elif g[0:1] == "H":
+    elif g.strip()[0:1] == "H":
         return "$20"
     else:
         return "$100"
