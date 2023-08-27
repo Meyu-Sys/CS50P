@@ -4,4 +4,4 @@ def main():
     print("$" + d)
 
 def dollars(g):
-    if g.split(5)
+    if g[0:5] == "Hello"
