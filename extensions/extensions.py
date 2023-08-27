@@ -1,7 +1,5 @@
 a = input("File name: ")
-name, l = a.split(".")
-ext = l.lower
-print(ext)
+name, ext = a.strip().lower().split(".")
 match ext:
     case "jpg" | "jpeg":
         print("image/jpeg")
