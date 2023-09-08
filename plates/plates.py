@@ -7,7 +7,7 @@ def main():
 
 
 def is_valid(s):
-    if s.length() > 6 or s.length() < 2:
+    if len(s) > 6 or len(s) < 2:
         return False
     if s[0:2].isalpha() == False:
         return False
@@ -15,7 +15,7 @@ def is_valid(s):
         if c.isalnum() == False:
             return False
     a = 0
-    while a < s.len():
+    while a < len(s):
         if s[a].isdigit() == True:
             if s[a+1].isdigit() == True or s[a+1] == "":
                 continue
