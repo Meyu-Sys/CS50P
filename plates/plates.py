@@ -16,6 +16,6 @@ def is_valid(s):
             return False
     a = 0
     while a < s.len():
-        if s[a].isdigit()
-
+        if s[a].isdigit() == True:
+            
 main()
