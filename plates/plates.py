@@ -14,8 +14,7 @@ def is_valid(s):
     for c in s:
         if c.isalnum() == False:
             return False
-    for a in s:
-        if a.isdigit() == True
-
+    while a < s.len():
+        if s
 
 main()
