@@ -19,6 +19,9 @@ def is_valid(s):
             if s[i] == 0:
                 return False
             break
+    for m in range(len(s)):
+        a = True
+        
     return True
 
 main()
