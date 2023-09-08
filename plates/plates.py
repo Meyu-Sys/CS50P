@@ -17,8 +17,11 @@ def is_valid(s):
     a = 0
     while a < s.len():
         if s[a].isdigit() == True:
-            if s[a+1].isdigit() == True or :
+            if s[a+1].isdigit() == True or s[a+1] == "":
                 continue
             else:
                 return False
+        a = a + 1
+    return True
+
 main()
