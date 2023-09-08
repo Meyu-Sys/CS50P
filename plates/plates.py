@@ -15,13 +15,7 @@ def is_valid(s):
         if c.isalnum() == False:
             return False
     a = 0
-    while a < len(s):
-        if s[a].isdigit() == True:
-            if s[a+1].isdigit() == True or s[a+1] == "":
-                continue
-            else:
-                return False
-        a = a + 1
+    
     return True
 
 main()
