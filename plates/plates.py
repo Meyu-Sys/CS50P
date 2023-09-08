@@ -14,8 +14,8 @@ def is_valid(s):
     for c in s:
         if c.isalnum() == False:
             return False
-    for _ in s:
-        
+    for a in s:
+        if a
 
 
 main()
