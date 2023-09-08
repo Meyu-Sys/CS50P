@@ -11,7 +11,7 @@ while inp < 50:
             continue
     if inp < 50:
         due = int(50 - inp)
-        print("Amount Due:",due)
+        print("Amount Due:", due)
     else:
         change = int(inp - 50)
-        print("Change Owed:",change)
+        print("Change Owed:", change)

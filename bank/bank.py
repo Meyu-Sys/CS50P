@@ -3,6 +3,7 @@ def main():
     d = dollars(a)
     print(d)
 
+
 def dollars(g):
     if g.strip()[0:5] == "Hello":
         return "$0"
@@ -10,5 +11,6 @@ def dollars(g):
         return "$20"
     else:
         return "$100"
+
 
 main()

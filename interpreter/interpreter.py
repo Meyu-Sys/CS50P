@@ -9,4 +9,4 @@ match y:
         p = float(int(x) / int(z))
     case "*":
         p = float(int(x) * int(z))
-print (p)
+print(p)
