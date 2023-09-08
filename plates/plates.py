@@ -19,12 +19,13 @@ def is_valid(s):
             if s[i] == 0:
                 return False
             break
+    a = True
     for m in range(len(s)):
         if s[m].isdigit() == True:
-            a = True
+            a = False
             continue
         else:
-            a = False
+            a = True
     return True
 
 main()
