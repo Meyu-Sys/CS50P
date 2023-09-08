@@ -6,4 +6,4 @@ for c in twitter:
             continue
         case _:
             twttr = twttr + c
-print("Output: ",twttr)
+print("Output: ", twttr)

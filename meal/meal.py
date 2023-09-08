@@ -9,6 +9,7 @@ def main():
     elif 18.0 <= t <= 19.0:
         print("dinner time")
 
+
 def convert(time):
     hr, min = time.split(":")
     # challenge mechanic
@@ -19,6 +20,7 @@ def convert(time):
 
     fl = float(float(hr) + float(int(min) / 60))
     return fl
+
 
 if __name__ == "__main__":
     main()
