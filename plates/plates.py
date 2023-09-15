@@ -26,6 +26,6 @@ def is_valid(s):
             continue
         else:
             a = True
-    return True
+
 
 main()
