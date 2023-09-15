@@ -24,7 +24,7 @@ def is_valid(s):
         if s[m].isdigit() == True:
             a = s[m:len(s)]
             break
-    
+    if a.isdigit()
 
 
 
