@@ -25,4 +25,5 @@ def is_valid(s):
             if a.isdigit() == False:
                 return False
             break
+    return True
 main()
