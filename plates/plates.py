@@ -19,13 +19,10 @@ def is_valid(s):
             if s[i] == 0:
                 return False
             break
-
     for m in range(len(s)):
         if s[m].isdigit() == True:
-            a = s[m : len(s)]
+            a = s[m-1:len(s)]
             if a.isdigit() == False:
                 return False
             break
-
-
 main()
