@@ -21,7 +21,7 @@ def is_valid(s):
             break
     for m in range(len(s)):
         if s[m].isdigit() == True:
-            a = s[m-1:len(s)]
+            a = s[m:len(s)]
             if a.isdigit() == False:
                 return False
             break
