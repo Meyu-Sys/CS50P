@@ -16,15 +16,17 @@ def is_valid(s):
             return False
     for i in range(len(s)):
         if s[i].isdigit():
-            if s[i] == 0:
+            if s[i] == "0":
                 return False
             else:
                 break
     for m in range(len(s)):
         if s[m].isdigit() == True:
-            a = s[m:len(s)]
+            a = s[m : len(s)]
             if a.isdigit() == False:
                 return False
             break
     return True
+
+
 main()
