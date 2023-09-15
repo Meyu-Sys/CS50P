@@ -18,7 +18,8 @@ def is_valid(s):
         if s[i].isdigit():
             if s[i] == 0:
                 return False
-            break
+            else:
+                break
     for m in range(len(s)):
         if s[m].isdigit() == True:
             a = s[m:len(s)]
