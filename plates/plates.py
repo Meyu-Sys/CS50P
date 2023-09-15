@@ -22,11 +22,10 @@ def is_valid(s):
 
     for m in range(len(s)):
         if s[m].isdigit() == True:
-            a = s[m:len(s)]
+            a = s[m : len(s)]
+            if a.isdigit() == False:
+                return False
             break
-    if a.isdigit()
-
-
 
 
 main()
