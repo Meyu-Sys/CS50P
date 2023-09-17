@@ -9,6 +9,6 @@ while True:
         else:
             list[a] = 1
     except EOFError:
-        list.sort()
+        
         for items in list:
             print(list[items], items)
