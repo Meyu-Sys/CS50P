@@ -15,7 +15,7 @@ while True:
         i = input("Item: ").title()
         p = float(items[i])
         total = float(total + p)
-        print(f"Total: ${total}")
+        print(f"Total: ${format(total, '.2f')}")
     except KeyError:
         continue
     except EOFError:
