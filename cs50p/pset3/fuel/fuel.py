@@ -12,4 +12,8 @@ while True:
     else:
         break
 p = round(p * 100)
+if p <= 1:
+    print("E")
+if p >= 99:
+    print()
 print(f"{p}%")
