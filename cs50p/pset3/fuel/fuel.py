@@ -4,9 +4,10 @@ while True:
     try:
         x = int(x)
         y = int(y)
+        p = x / y
     except ValueError:
         continue
-    if y == 0:
+    except ZeroDivisionError:
         continue
-    break
-
+    else:
+        break
