@@ -12,4 +12,7 @@ items = {
 while True:
     try:
         i = input("Item: ").title()
-        p =
+        p = items[i]
+        total = total + p
+    except KeyboardInterrupt:
+        print("Total: $" + p)
