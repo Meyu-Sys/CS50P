@@ -12,7 +12,7 @@ items = {
 while True:
     try:
         i = input("Item: ").title()
-        p = items[i]
-        total = total + p
+        p = float(items[i])
+        total = float(total + p)
     except KeyboardInterrupt:
-        print("Total: $" + p)
+        print(f"Total: ${total}")
