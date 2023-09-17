@@ -1,2 +1,3 @@
-def main:
-    
+def main():
+    a = percentage()
+def percentage():
