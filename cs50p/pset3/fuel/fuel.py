@@ -14,6 +14,7 @@ while True:
 p = round(p * 100)
 if p <= 1:
     print("E")
-if p >= 99:
+elif p >= 99:
     print("F")
-print(f"{p}%")
+else:
+    print(f"{p}%")
