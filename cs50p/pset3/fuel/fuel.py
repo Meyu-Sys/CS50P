@@ -12,3 +12,4 @@ while True:
     else:
         break
 p = round(p * 100)
+print(f"{p}%")
