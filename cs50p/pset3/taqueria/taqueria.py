@@ -10,4 +10,6 @@ items = {
     "Tortilla Salad": 8.00
 }
 while True:
-    i = input("Item: ").title()
+    try:
+        i = input("Item: ").title()
+        p =
