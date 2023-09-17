@@ -1,7 +1,12 @@
 while True:
     a = input("Fraction: ")
     x, y = a.split("/")
-    if x.isdigit() == True and y.isdigit() == True and int(y) != 0:
-        break
-    continue
+    try:
+        x = int(x)
+        y = int(y)
+    except ValueError:
+        continue
+    if y == 0:
+        continue
+    break
 
