@@ -15,5 +15,6 @@ while True:
         i = input("Item: ").title()
         p = float(items[i])
         total = float(total + p)
-    except KeyboardInterrupt:
         print(f"Total: ${total}")
+    except KeyError:
+        continue
