@@ -1,3 +1,2 @@
-def main():
-    a = percentage()
-def percentage():
+a = input("Fraction: ")
+x, y = int(a.seperate("/"))
