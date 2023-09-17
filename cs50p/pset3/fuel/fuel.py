@@ -1,2 +1,3 @@
-a = input("Fraction: ")
-x, y = int(a.seperate("/"))
+while True:
+    a = input("Fraction: ")
+    x, y = a.split("/")
