@@ -1,6 +1,9 @@
 list = {
 
 }
+sortlist = {
+
+}
 while True:
     try:
         a = input("").upper()
@@ -9,6 +12,9 @@ while True:
         else:
             list[a] = 1
     except EOFError:
-        
-        for items in list:
+        keys = list(list.keys())
+        keys.sort()
+        for i in keys:
+            sortlist[i] = list[i]
+        for items in sortlist:
             print(list[items], items)
