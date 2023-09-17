@@ -11,3 +11,4 @@ while True:
         continue
     else:
         break
+p = round(p * 100)
