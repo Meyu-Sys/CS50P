@@ -18,3 +18,5 @@ while True:
         print(f"Total: ${total}")
     except KeyError:
         continue
+    except EOFError:
+        break
