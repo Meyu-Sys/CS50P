@@ -3,10 +3,11 @@ list = {
 }
 while True:
     try:
-        a = input("")
+        a = input("").upper()
         if a in list:
             list[a] = int(list[a]) + 1
-        else 
+        else:
+            list[a] = 1
 
     except EOFError:
 
