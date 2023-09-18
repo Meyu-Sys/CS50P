@@ -23,5 +23,11 @@ else:
     x, y, z = date.split(" ")
     y = int(y - ",")
     z = int(z)
-    for month in months:
-        if
+    for n in months:
+        if x == months[n]:
+            x = int(n) + int(1)
+            break
+        else:
+            continue
+    x = int(x)
+    print(f"{z}-{x:02d}-{y:02d}")
