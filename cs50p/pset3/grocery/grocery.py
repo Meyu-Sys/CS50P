@@ -1,9 +1,5 @@
-listicle = {
-
-}
-sortlist = {
-
-}
+listicle = {}
+sortlist = {}
 while True:
     try:
         a = input("").upper()
@@ -15,3 +11,4 @@ while True:
         sortlist = dict(sorted(listicle.items()))
         for items in sortlist:
             print(sortlist[items], items)
+        break
