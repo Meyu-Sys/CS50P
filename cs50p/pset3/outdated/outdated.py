@@ -24,6 +24,7 @@ while True:
             continue
         z = int(z)
         print(f"{z}-{x:02d}-{y:02d}")
+        break
     else:
         x, y, z = date.split(" ")
         y = int(y.replace(",",""))
@@ -36,3 +37,4 @@ while True:
                 continue
         x = int(x)
         print(f"{z}-{x:02d}-{y:02d}")
+        break
