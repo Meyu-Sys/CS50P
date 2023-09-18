@@ -29,11 +29,13 @@ while True:
         x, y, z = date.split(" ")
         y = int(y.replace(",",""))
         z = int(z)
+        a = 1
         for n in months:
             if x == n:
-                x = int(n) + int(1)
+                x = a
                 break
             else:
+                a = a + 1
                 continue
         x = int(x)
         print(f"{z}-{x:02d}-{y:02d}")
