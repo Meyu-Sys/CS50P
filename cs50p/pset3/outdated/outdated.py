@@ -31,14 +31,14 @@ while True:
     else:
         x, y, z = date.split(" ")
         if "," in y:
-            y = y.replace(",","")
+            y = y.replace(",", "")
         else:
             continue
         if y.isdigit() == False:
             continue
         else:
             y = int(y)
-        if  y > 31:
+        if y > 31:
             continue
         z = int(z)
         a = 1
