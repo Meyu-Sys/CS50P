@@ -1,3 +1,6 @@
 date = input()
-a, b, c = date.split(" ")
-x, y, z = date.split("/")
+if "/" in date:
+    x, y, z = date.split("/")
+    
+else:
+    x, y, z = date.split(" ")
