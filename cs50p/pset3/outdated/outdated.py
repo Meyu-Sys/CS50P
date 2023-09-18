@@ -27,7 +27,11 @@ while True:
         break
     else:
         x, y, z = date.split(" ")
-        y = int(y.replace(",",""))
+        y = y.replace(",","")
+        if y.isdigit() == False:
+            continue
+        else:
+            y = int(y)
         z = int(z)
         a = 1
         for n in months:
