@@ -30,7 +30,7 @@ while True:
         y = int(y.replace(",",""))
         z = int(z)
         for n in months:
-            if x == months[n]:
+            if x == n:
                 x = int(n) + int(1)
                 break
             else:
