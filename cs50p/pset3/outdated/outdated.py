@@ -32,6 +32,8 @@ while True:
             continue
         else:
             y = int(y)
+        if  y > 31:
+            continue
         z = int(z)
         a = 1
         for n in months:
