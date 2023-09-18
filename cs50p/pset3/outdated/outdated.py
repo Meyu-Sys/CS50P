@@ -13,7 +13,7 @@ months = [
     "December",
 ]
 while True:
-    date = input("Date: ")
+    date = input("Date: ").strip()
     if "/" in date:
         x, y, z = date.split("/")
         if x.isdigit() == False:
