@@ -12,7 +12,7 @@ months = [
     "November",
     "December",
 ]
-date = input()
+date = input("Date: ")
 if "/" in date:
     x, y, z = date.split("/")
     x = int(x)
