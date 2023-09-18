@@ -21,7 +21,7 @@ if "/" in date:
     print(f"{z}-{x:02d}-{y:02d}")
 else:
     x, y, z = date.split(" ")
-    y = int(y - ",")
+    y = int(y.replace(",",""))
     z = int(z)
     for n in months:
         if x == months[n]:
