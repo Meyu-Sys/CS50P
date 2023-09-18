@@ -16,7 +16,7 @@ while True:
     date = input("Date: ")
     if "/" in date:
         x, y, z = date.split("/")
-        if x.isdigit() == false:
+        if x.isdigit() == False:
             continue
         else:
             x = int(x)
