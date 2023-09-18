@@ -30,7 +30,10 @@ while True:
         break
     else:
         x, y, z = date.split(" ")
-        y = y.replace(",","")
+        if "," in y:
+            y = y.replace(",","")
+        else:
+            continue
         if y.isdigit() == False:
             continue
         else:
