@@ -17,7 +17,11 @@ while True:
     if "/" in date:
         x, y, z = date.split("/")
         x = int(x)
+        if x > 12:
+            continue
         y = int(y)
+        if y > 31:
+            continue
         z = int(z)
         print(f"{z}-{x:02d}-{y:02d}")
     else:
