@@ -9,7 +9,8 @@ rand = random.randint(1,up)
 while True:
     try:
         guess = int(input("Guess: "))
-        
+    except ValueError:
+        continue
     if guess < rand:
         print("Too small!")
         continue
