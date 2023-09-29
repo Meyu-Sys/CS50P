@@ -1,12 +1,16 @@
 import random
+
 while True:
     try:
         up = int(input("Level: "))
+    except ValueError:
+        continue
     if up < 1:
         continue
     else:
         break
-rand = random.randint(1,up)
+rand = random.randint(1, up)
+
 while True:
     try:
         guess = int(input("Guess: "))
