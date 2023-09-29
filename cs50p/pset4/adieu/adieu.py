@@ -1,3 +1,5 @@
+import inflect
+p = inflect.engine()
 names = []
 count = 0
 printstr = "Adieu, adieu, to "
@@ -6,4 +8,5 @@ try:
         names[count] = input("Name: ")
         count = count + 1
 except EOFError:
-    printstr = printstr + 
+    printstr = printstr + p.join(names)
+    print(printstr)
