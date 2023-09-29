@@ -15,11 +15,12 @@ fonts = [
     "letters",
     "alligator",
     "bubble",
+    "rectangles",
 ]
 
 if len(sys.argv) == 3:
     if sys.argv[1] == "-f" or sys.argv[1] == "--font":
-        fon = sys.argv[2]
+        if 
     else:
         sys.exit("Invalid usage")
 elif len(sys.argv) == 1:
