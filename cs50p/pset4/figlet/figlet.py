@@ -10,4 +10,4 @@ else:
     sys.exit("Invalid usage")
 
 text = input("Input: ")
-out =
+out = pyfiglet.figlet_format(text, font=fon)
