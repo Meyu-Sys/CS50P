@@ -11,3 +11,5 @@ else:
 
 text = input("Input: ")
 out = pyfiglet.figlet_format(text, font=fon)
+print("Output:")
+print(out)
