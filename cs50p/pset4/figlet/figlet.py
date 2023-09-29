@@ -3,10 +3,18 @@ import pyfiglet
 import random
 
 fonts = [
-"3-d", "3x5", "5lineoblique", "slant",
-"5lineoblique","alphabet", "banner3-D",
-"doh", "isometric1", "letters",
-"alligator", "bubble"
+    "3-d",
+    "3x5",
+    "5lineoblique",
+    "slant",
+    "5lineoblique",
+    "alphabet",
+    "banner3-D",
+    "doh",
+    "isometric1",
+    "letters",
+    "alligator",
+    "bubble",
 ]
 
 if len(sys.argv) == 3:
