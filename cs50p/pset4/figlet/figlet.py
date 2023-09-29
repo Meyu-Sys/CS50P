@@ -2,7 +2,12 @@ import sys
 import pyfiglet
 import random
 
-fonts = []
+fonts = [
+"3-d", "3x5", "5lineoblique", "slant",
+"5lineoblique","alphabet", "banner3-D",
+"doh", "isometric1", "letters",
+"alligator", "bubble"
+]
 
 if len(sys.argv) == 3:
     if sys.argv[1] == "-f" or sys.argv[1] == "--font":
@@ -10,7 +15,7 @@ if len(sys.argv) == 3:
     else:
         sys.exit("Invalid usage")
 elif len(sys.argv) == 1:
-
+    fon = random.choice(fonts)
 else:
     sys.exit("Invalid usage")
 
