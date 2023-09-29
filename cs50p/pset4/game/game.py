@@ -7,7 +7,9 @@ while True:
         break
 rand = random.randint(1,up)
 while True:
-    guess = int(input("Guess: "))
+    try:
+        guess = int(input("Guess: "))
+        
     if guess < rand:
         print("Too small!")
         continue
