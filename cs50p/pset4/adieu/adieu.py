@@ -6,4 +6,5 @@ try:
         names[count] = input("Name: ")
         count = count + 1
 except EOFError:
-    
+    for name in names:
+        
