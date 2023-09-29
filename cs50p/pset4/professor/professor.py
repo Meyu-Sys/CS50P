@@ -6,8 +6,8 @@ def main():
 
 
 def get_level():
-    level = int(input("Level: "))
-    if 
+    n = int(input("Level: "))
+    if n
 
 
 def generate_integer(level):
