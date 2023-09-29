@@ -1,6 +1,7 @@
 import random
 while True:
-    up = int(input("Level: "))
+    try:
+        up = int(input("Level: "))
     if up < 1:
         continue
     else:
