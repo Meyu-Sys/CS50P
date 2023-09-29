@@ -19,4 +19,4 @@ while True:
         continue
     else:
         print("Just right!")
-        exit
+        break
