@@ -1,12 +1,13 @@
 import sys
 import pyfiglet
+import random
 
-if len(sys.argv) == 1:
+if len(sys.argv) == 3:
     if sys.argv[1] == "-f" or sys.argv[1] == "--font":
         fon = sys.argv[2]
     else:
         sys.exit("Invalid usage")
-elif len(sys.argv) == 3:
+elif len(sys.argv) == 1:
     
 else:
     sys.exit("Invalid usage")
