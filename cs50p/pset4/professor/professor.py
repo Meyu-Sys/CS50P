@@ -2,8 +2,8 @@ import random
 
 
 def main():
-    level = get_level()
-    rando = generate_integer(level)
+    diff = get_level()
+    rando = generate_integer(diff)
 
 def get_level():
     while True:
@@ -14,7 +14,7 @@ def get_level():
             continue
 
 def generate_integer(level):
-    if
+    if l
 
 
 if __name__ == "__main__":
