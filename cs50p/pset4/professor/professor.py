@@ -19,7 +19,7 @@ def main():
         Z = X + Y
         attempt = 1
         while attempt < 4:
-            ans = int(input(X + Y + "= "))
+            ans = int(input(str(X) + str(Y) + "= "))
             if ans == Z:
                 Score = Score + 1
                 break
@@ -29,7 +29,7 @@ def main():
                     attempt = attempt + 1
                     continue
                 else:
-                    print(X)
+                    print(str(X) + str(Y))
 
 def get_level():
     while True:
