@@ -5,19 +5,25 @@ def main():
     diff = get_level()
     rando = generate_integer(diff)
     n = 0
+    Score = 0
     while n < 10:
-        if level == 1:
+        if diff == 1:
             X = random.randint(1,9)
             Y = random.randint(1,9)
-        elif level == 2:
+        elif diff == 2:
             X = random.randint(10,99)
             Y = random.randint(10,99)
-        else level == 3:
+        else:
             X = random.randint(100,999)
             Y = random.randint(100,999)
         Z = X + Y
-        a = False
-        
+        attempt = 0
+        while attempt < 3:
+            ans = int(input(X + Y + "= "))
+            if ans == Z:
+                Score = Score + 1
+                break
+            else:
 
 def get_level():
     while True:
