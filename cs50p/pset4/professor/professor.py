@@ -22,7 +22,7 @@ def main():
             try:
                 ans = int(input(str(X) + str(Y) + "= "))
             except ValueError:
-                print
+                ans = 0
             if ans == Z:
                 Score = Score + 1
                 break
