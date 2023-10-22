@@ -14,7 +14,8 @@ def get_level():
             continue
 
 def generate_integer(level):
-    if l
+    if level == 1:
+        o = 
 
 
 if __name__ == "__main__":
