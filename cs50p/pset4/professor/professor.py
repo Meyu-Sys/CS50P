@@ -20,7 +20,7 @@ def main():
         attempt = 1
         while attempt < 4:
             try:
-                ans = input(str(X), str(Y), "= ")
+                ans = input(str(X) + " + " str(Y) + " = ")
                 ans = int(ans)
             except ValueError:
                 ans = -1
@@ -34,7 +34,7 @@ def main():
                     continue
                 else:
                     print("EEE")
-                    print(str(X), str(Y), "=", str(Z))
+                    print(str(X) + " + " str(Y) + " = ", str(Z))
                     break
         n = n + 1
     print("Score:", Score)
