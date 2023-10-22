@@ -29,7 +29,8 @@ def main():
                     attempt = attempt + 1
                     continue
                 else:
-                    print(str(X) + str(Y))
+                    print(str(X) + str(Y) + "=" + str(Z))
+                    break
 
 def get_level():
     while True:
