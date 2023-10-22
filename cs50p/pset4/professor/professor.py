@@ -19,7 +19,10 @@ def main():
         Z = X + Y
         attempt = 1
         while attempt < 4:
-            ans = int(input(str(X) + str(Y) + "= "))
+            try:
+                ans = int(input(str(X) + str(Y) + "= "))
+            except ValueError:
+                print
             if ans == Z:
                 Score = Score + 1
                 break
