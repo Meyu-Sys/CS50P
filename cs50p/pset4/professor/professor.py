@@ -1,6 +1,5 @@
 import random
 
-
 def main():
     diff = get_level()
     rando = generate_integer(diff)
