@@ -17,13 +17,14 @@ def main():
             X = random.randint(100,999)
             Y = random.randint(100,999)
         Z = X + Y
-        attempt = 0
+        attempt = 1
         while attempt < 3:
             ans = int(input(X + Y + "= "))
             if ans == Z:
                 Score = Score + 1
                 break
             else:
+
 
 def get_level():
     while True:
