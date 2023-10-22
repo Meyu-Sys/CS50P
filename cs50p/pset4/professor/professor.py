@@ -20,7 +20,8 @@ def main():
         attempt = 1
         while attempt < 4:
             try:
-                ans = int(input(str(X), str(Y), "= "))
+                ans = input(str(X), str(Y), "= ")
+                ans = int(ans)
             except ValueError:
                 ans = -1
             if ans == Z:
