@@ -17,7 +17,11 @@ def generate_integer(level):
     if level == 1:
         o = random.randint(1,9)
     elif level == 2:
-        o = random.randint()
+        o = random.randint(10,99)
+    elif level == 3:
+        o = random.randint(100,999)
+    else:
+        raise ValueError
 
 
 if __name__ == "__main__":
