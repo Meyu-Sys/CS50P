@@ -4,6 +4,9 @@ import random
 def main():
     diff = get_level()
     rando = generate_integer(diff)
+    n = 0
+    while n < 10:
+        X = r
 
 def get_level():
     while True:
@@ -22,7 +25,7 @@ def generate_integer(level):
         o = random.randint(100,999)
     else:
         raise ValueError("Level not Valid")
-
+    return o
 
 if __name__ == "__main__":
     main()
