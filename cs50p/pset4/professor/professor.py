@@ -20,7 +20,7 @@ def main():
         attempt = 1
         while attempt < 4:
             try:
-                ans = int(input(str(X) + str(Y) + "= "))
+                ans = int(input(str(X), str(Y), "= "))
             except ValueError:
                 ans = -1
             if ans == Z:
@@ -33,10 +33,10 @@ def main():
                     continue
                 else:
                     print("EEE")
-                    print(str(X) + str(Y) + "=" + str(Z))
+                    print(str(X), str(Y), "=", str(Z))
                     break
         n = n + 1
-    print("Score")
+    print("Score:", Score)
 
 def get_level():
     while True:
