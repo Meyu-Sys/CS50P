@@ -15,7 +15,9 @@ def get_level():
 
 def generate_integer(level):
     if level == 1:
-        o = 
+        o = random.randint(1,9)
+    elif level == 2:
+        o = random.randint()
 
 
 if __name__ == "__main__":
