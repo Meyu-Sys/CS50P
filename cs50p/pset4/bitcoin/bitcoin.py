@@ -1,5 +1,7 @@
 import requests
-import json
+ n = 
+
 resp = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 rate = ((resp.json()["bpi"])["USD"])["rate"]
-print(rate)
+rt1,rt2 = rate.split(",")
+rate = float(rt1 + rt2)
