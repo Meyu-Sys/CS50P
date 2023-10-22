@@ -21,7 +21,7 @@ def generate_integer(level):
     elif level == 3:
         o = random.randint(100,999)
     else:
-        raise ValueError
+        raise ValueError("Level not Valid")
 
 
 if __name__ == "__main__":
