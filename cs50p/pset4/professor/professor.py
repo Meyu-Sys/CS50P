@@ -18,13 +18,18 @@ def main():
             Y = random.randint(100,999)
         Z = X + Y
         attempt = 1
-        while attempt < 3:
+        while attempt < 4:
             ans = int(input(X + Y + "= "))
             if ans == Z:
                 Score = Score + 1
                 break
             else:
-
+                if attempt < 3:
+                    print("EEE")
+                    attempt = attempt + 1
+                    continue
+                else:
+                    print(X)
 
 def get_level():
     while True:
