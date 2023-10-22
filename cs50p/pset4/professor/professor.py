@@ -2,19 +2,12 @@ import random
 
 def main():
     diff = get_level()
-    rando = generate_integer(diff)
     n = 0
     Score = 0
     while n < 10:
-        if diff == 1:
-            X = random.randint(0, 9)
-            Y = random.randint(0, 9)
-        elif diff == 2:
-            X = random.randint(10, 99)
-            Y = random.randint(10, 99)
-        else:
-            X = random.randint(100, 999)
-            Y = random.randint(100, 999)
+        X = generate_integer(diff)
+        Y = generate_integer(diff)
+
         Z = X + Y
         pr = str(X) + " + " + str(Y) + " = "
         prans = pr + str(Z)
