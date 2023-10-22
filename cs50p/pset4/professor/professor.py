@@ -17,10 +17,12 @@ def main():
             X = random.randint(100,999)
             Y = random.randint(100,999)
         Z = X + Y
+        pr = str(X) + " + " + str(Y) + " = "
+        prans = pr + str(Z)
         attempt = 1
         while attempt < 4:
             try:
-                ans = input(str(X) + " + " str(Y) + " = ")
+                ans = input(pr)
                 ans = int(ans)
             except ValueError:
                 ans = -1
@@ -34,7 +36,7 @@ def main():
                     continue
                 else:
                     print("EEE")
-                    print(str(X) + " + " str(Y) + " = ", str(Z))
+                    print(prans)
                     break
         n = n + 1
     print("Score:", Score)
