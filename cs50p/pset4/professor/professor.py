@@ -33,6 +33,7 @@ def main():
                     print(str(X) + str(Y) + "=" + str(Z))
                     break
         n = n + 1
+    print("")
 
 def get_level():
     while True:
