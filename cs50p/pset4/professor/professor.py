@@ -8,8 +8,8 @@ def main():
     Score = 0
     while n < 10:
         if diff == 1:
-            X = random.randint(1,9)
-            Y = random.randint(1,9)
+            X = random.randint(0,9)
+            Y = random.randint(0,9)
         elif diff == 2:
             X = random.randint(10,99)
             Y = random.randint(10,99)
@@ -22,7 +22,7 @@ def main():
             try:
                 ans = int(input(str(X) + str(Y) + "= "))
             except ValueError:
-                ans = 0
+                ans = -1
             if ans == Z:
                 Score = Score + 1
                 break
@@ -36,7 +36,7 @@ def main():
                     print(str(X) + str(Y) + "=" + str(Z))
                     break
         n = n + 1
-    print("")
+    print("Score")
 
 def get_level():
     while True:
@@ -48,7 +48,7 @@ def get_level():
 
 def generate_integer(level):
     if level == 1:
-        o = random.randint(1,9)
+        o = random.randint(0,9)
     elif level == 2:
         o = random.randint(10,99)
     elif level == 3:
