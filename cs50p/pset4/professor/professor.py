@@ -29,8 +29,10 @@ def main():
                     attempt = attempt + 1
                     continue
                 else:
+                    print("EEE")
                     print(str(X) + str(Y) + "=" + str(Z))
                     break
+        n = n + 1
 
 def get_level():
     while True:
