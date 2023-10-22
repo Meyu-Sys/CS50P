@@ -1,5 +1,7 @@
 import requests
- n = 
+import system
+try:
+    n = float(sys.argv[1])
 
 resp = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
 rate = ((resp.json()["bpi"])["USD"])["rate"]
