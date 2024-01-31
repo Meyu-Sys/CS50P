@@ -1,5 +1,4 @@
 from twttr import shorten
-import pytest
 
 def test_yolo():
     assert shorten("yolo") == "yl"
